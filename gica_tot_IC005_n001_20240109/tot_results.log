@@ -1,0 +1,487 @@
+Starting Analysis 
+
+Starting parallel pool (parpool) using the 'local' profile ...
+ 
+------------------------------------------------------------------------------------
+GETTING DATA REDUCTION PARAMETERS----------------------
+------------------------------------------------------------------------------------
+ Reduction step 1 starts with 8 groups and gets reduced to 8 groups
+    -New Group #1: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 630 BOLD timepoints
+     The new group will have a total of 630 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+    -New Group #2: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 612 BOLD timepoints
+     The new group will have a total of 612 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+    -New Group #3: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 635 BOLD timepoints
+     The new group will have a total of 635 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+    -New Group #4: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 623 BOLD timepoints
+     The new group will have a total of 623 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+    -New Group #5: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 620 BOLD timepoints
+     The new group will have a total of 620 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+    -New Group #6: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 620 BOLD timepoints
+     The new group will have a total of 620 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+    -New Group #7: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 614 BOLD timepoints
+     The new group will have a total of 614 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+    -New Group #8: 1 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 604 BOLD timepoints
+     The new group will have a total of 604 stacked BOLD timepoints
+     This group will then be reduced to 8 principal components
+ Reduction step 2 starts with 8 groups and gets reduced to 1 groups
+    -New Group #1: 8 groups will be concatenated to form the new group.
+     Each of the to be concatenated groups is made up of 8 principal components
+     The new group will have a total of 64 stacked principal components
+     This group will then be reduced to 5 principal components
+------------------------------------------------------------------------------------
+END GETTING DATA REDUCTION PARAMETERS----------------------
+------------------------------------------------------------------------------------
+ 
+Checking to make sure parameters are correct...
+  Checking mask 
+  Checking principal component parameters
+Done with parameter error check 
+ 
+------------------------------------------------------------------------------------
+STARTING DATA REDUCTION (PRINCIPAL COMPONENTS ANALYSIS)
+------------------------------------------------------------------------------------
+--Extracting principal components for data reduction( time #1)
+
+Starting parallel pool (parpool) using the 'local' profile ...
+
+
+--Doing pca on Subject #1 Session #1
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 630 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+
+--Doing pca on Subject #1 Session #2
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 612 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+
+--Doing pca on Subject #1 Session #3
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 635 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+
+--Doing pca on Subject #1 Session #4
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 623 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+
+--Doing pca on Subject #1 Session #5
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 620 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+
+--Doing pca on Subject #1 Session #6
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 620 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+
+--Doing pca on Subject #1 Session #7
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 614 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+
+--Doing pca on Subject #1 Session #8
+Removing mean per voxel ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 604 ^2
+Calculating eigendecomposition
+[Warning: Ignoring issym field in the options structure since the first input is not a function handle.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkIsSym', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 527)" style="font-weight:bold">eigs>checkIsSym</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',527,0)">line 527</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs>checkInputs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 397)" style="font-weight:bold">eigs>checkInputs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',397,0)">line 397</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('eigs', '/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m', 90)" style="font-weight:bold">eigs</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/sparfun/eigs.m',90,0)">line 90</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_eig_symm', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m', 62)" style="font-weight:bold">icatb_eig_symm</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_eig_symm.m',62,0)">line 62</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca>compute_evd', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 444)" style="font-weight:bold">icatb_calculate_pca>compute_evd</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',444,0)">line 444</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_calculate_pca', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m', 277)" style="font-weight:bold">icatb_calculate_pca</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_calculate_pca.m',277,0)">line 277</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m', 502)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/matlab2019b/toolbox/matlab/lang/parallel_function.m',502,0)">line 502</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_parFirstPCA_cluster', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m', 69)" style="font-weight:bold">icatb_parFirstPCA_cluster</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_parallel_files/icatb_parFirstPCA_cluster.m',69,0)">line 69</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction>parFirstPCA', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 525)" style="font-weight:bold">icatb_dataReduction>parFirstPCA</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',525,0)">line 525</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_dataReduction', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m', 186)" style="font-weight:bold">icatb_dataReduction</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_dataReduction.m',186,0)">line 186</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_runAnalysis', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m', 415)" style="font-weight:bold">icatb_runAnalysis</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_analysis_functions/icatb_runAnalysis.m',415,0)">line 415</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('icatb_batch_file_run', '/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m', 55)" style="font-weight:bold">icatb_batch_file_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/external-master/mat/gica/icatb/icatb_batch_files/icatb_batch_file_run.m',55,0)">line 55</a>)
+  In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('kat_fmri_rest_gift_run', '/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m', 82)" style="font-weight:bold">kat_fmri_rest_gift_run</a> (<a href="matlab: opentoline('/projects/chbh00077/Functional/FAB-main/kat_fmri_rest_gift_run.m',82,0)">line 82</a>)] 
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+Done extracting principal components for data reduction( time #1)
+
+--Extracting principal components for data reduction( time #2 )
+Loading data-set 1 ...
+Loading data-set 2 ...
+Loading data-set 3 ...
+Loading data-set 4 ...
+Loading data-set 5 ...
+Loading data-set 6 ...
+Loading data-set 7 ...
+Loading data-set 8 ...
+Using Eigen Value Decomposition ...
+Covariance matrix size is 64 ^2
+Calculating eigendecomposition
+Sorting eigenvalues
+Selecting Desired Eigenvalues
+40.7476% of (non-zero) eigenvalues retained.
+
+
+Done with data reduction( time # 2)
+ 
+------------------------------------------------------------------------------------
+ENDING DATA REDUCTION (PRINCIPAL COMPONENTS ANALYSIS)
+------------------------------------------------------------------------------------
+ 
+---------------------------------------------------------------------
+STARTING GROUP ICA STEP 
+---------------------------------------------------------------------
+Using spatial ica ...
+
+Number of times ICA will run is 1
+
+Run 1 / 1
+
+
+Input data size [5,82091] = 5 channels, 82091 frames.
+Finding 5 ICA components using logistic ICA.
+Initial learning rate will be 0.00932, block size 165.
+Learning rate will be multiplied by 0.9 whenever angledelta >= 60 deg.
+Training will end when wchange < 1e-06 or after 512 steps.
+Online bias adjustment will be used.
+Removing mean of each channel ...
+Not removing mean of each channel!!!
+Final training data range: -39.7789 to 29.0744
+Computing the sphering matrix...
+Starting weights are the identity matrix ...
+Sphering the data ...
+Beginning ICA training ...
+Lowering learning rate to 0.008388 and starting again.
+Lowering learning rate to 0.0075492 and starting again.
+Lowering learning rate to 0.00679428 and starting again.
+Lowering learning rate to 0.00611485 and starting again.
+Lowering learning rate to 0.00550337 and starting again.
+Lowering learning rate to 0.00495303 and starting again.
+Lowering learning rate to 0.00445773 and starting again.
+Lowering learning rate to 0.00401195 and starting again.
+Lowering learning rate to 0.00361076 and starting again.
+step 1 - lrate 0.003611, wchange 14.851009
+Lowering learning rate to 0.00324968 and starting again.
+step 1 - lrate 0.003250, wchange 12.184872
+step 2 - lrate 0.003250, wchange 18.732420
+step 3 - lrate 0.003250, wchange 12.280390, angledelta 82.7 deg
+step 4 - lrate 0.002925, wchange 16.251421, angledelta 96.2 deg
+step 5 - lrate 0.002632, wchange 14.700903, angledelta 121.4 deg
+step 6 - lrate 0.002369, wchange 14.413183, angledelta 102.5 deg
+step 7 - lrate 0.002132, wchange 8.137445, angledelta 108.7 deg
+step 8 - lrate 0.001919, wchange 14.998422, angledelta 125.5 deg
+step 9 - lrate 0.001727, wchange 1.735302, angledelta 73.2 deg
+step 10 - lrate 0.001554, wchange 4.164971, angledelta 131.9 deg
+step 11 - lrate 0.001399, wchange 9.022865, angledelta 53.3 deg
+step 12 - lrate 0.001399, wchange 1.616894, angledelta 135.1 deg
+step 13 - lrate 0.001259, wchange 2.915530, angledelta 143.9 deg
+step 14 - lrate 0.001133, wchange 0.406864, angledelta 81.6 deg
+step 15 - lrate 0.001020, wchange 0.770222, angledelta 141.0 deg
+step 16 - lrate 0.000918, wchange 0.323902, angledelta 143.9 deg
+step 17 - lrate 0.000826, wchange 1.916144, angledelta 88.0 deg
+step 18 - lrate 0.000743, wchange 1.366582, angledelta 165.8 deg
+step 19 - lrate 0.000669, wchange 0.178288, angledelta 115.2 deg
+step 20 - lrate 0.000602, wchange 0.123743, angledelta 110.6 deg
+step 21 - lrate 0.000542, wchange 0.133201, angledelta 125.1 deg
+step 22 - lrate 0.000488, wchange 0.143517, angledelta 123.8 deg
+step 23 - lrate 0.000439, wchange 0.094059, angledelta 108.7 deg
+step 24 - lrate 0.000395, wchange 0.241328, angledelta 127.6 deg
+step 25 - lrate 0.000356, wchange 0.100407, angledelta 123.3 deg
+step 26 - lrate 0.000320, wchange 0.080219, angledelta 118.4 deg
+step 27 - lrate 0.000288, wchange 0.048043, angledelta 109.1 deg
+step 28 - lrate 0.000259, wchange 0.047104, angledelta 129.7 deg
+step 29 - lrate 0.000233, wchange 0.096334, angledelta 137.5 deg
+step 30 - lrate 0.000210, wchange 0.031941, angledelta 124.2 deg
+step 31 - lrate 0.000189, wchange 0.022657, angledelta 108.1 deg
+step 32 - lrate 0.000170, wchange 0.023894, angledelta 108.4 deg
+step 33 - lrate 0.000153, wchange 0.024137, angledelta 102.2 deg
+step 34 - lrate 0.000138, wchange 0.026026, angledelta 123.0 deg
+step 35 - lrate 0.000124, wchange 0.042433, angledelta 124.5 deg
+step 36 - lrate 0.000112, wchange 0.009322, angledelta 133.2 deg
+step 37 - lrate 0.000100, wchange 0.007612, angledelta 101.9 deg
+step 38 - lrate 0.000090, wchange 0.008867, angledelta 118.8 deg
+step 39 - lrate 0.000081, wchange 0.006646, angledelta 114.7 deg
+step 40 - lrate 0.000073, wchange 0.014051, angledelta 107.9 deg
+step 41 - lrate 0.000066, wchange 0.007431, angledelta 111.3 deg
+step 42 - lrate 0.000059, wchange 0.005403, angledelta 105.7 deg
+step 43 - lrate 0.000053, wchange 0.004878, angledelta 87.6 deg
+step 44 - lrate 0.000048, wchange 0.003981, angledelta 124.1 deg
+step 45 - lrate 0.000043, wchange 0.001687, angledelta 126.7 deg
+step 46 - lrate 0.000039, wchange 0.001790, angledelta 73.0 deg
+step 47 - lrate 0.000035, wchange 0.001812, angledelta 101.9 deg
+step 48 - lrate 0.000032, wchange 0.001946, angledelta 117.8 deg
+step 49 - lrate 0.000028, wchange 0.001751, angledelta 120.6 deg
+step 50 - lrate 0.000026, wchange 0.001923, angledelta 103.1 deg
+step 51 - lrate 0.000023, wchange 0.000737, angledelta 119.5 deg
+step 52 - lrate 0.000021, wchange 0.001073, angledelta 117.4 deg
+step 53 - lrate 0.000019, wchange 0.003745, angledelta 133.0 deg
+step 54 - lrate 0.000017, wchange 0.003417, angledelta 146.8 deg
+step 55 - lrate 0.000015, wchange 0.001263, angledelta 140.6 deg
+step 56 - lrate 0.000014, wchange 0.001343, angledelta 144.4 deg
+step 57 - lrate 0.000012, wchange 0.001097, angledelta 150.0 deg
+step 58 - lrate 0.000011, wchange 0.000160, angledelta 108.2 deg
+step 59 - lrate 0.000010, wchange 0.000145, angledelta 105.5 deg
+step 60 - lrate 0.000009, wchange 0.000049, angledelta 104.8 deg
+step 61 - lrate 0.000008, wchange 0.000104, angledelta 72.2 deg
+step 62 - lrate 0.000007, wchange 0.000263, angledelta 124.8 deg
+step 63 - lrate 0.000006, wchange 0.000094, angledelta 141.1 deg
+step 64 - lrate 0.000006, wchange 0.000036, angledelta 105.6 deg
+step 65 - lrate 0.000005, wchange 0.000038, angledelta 131.5 deg
+step 66 - lrate 0.000005, wchange 0.000041, angledelta 132.7 deg
+step 67 - lrate 0.000004, wchange 0.000026, angledelta 125.1 deg
+step 68 - lrate 0.000004, wchange 0.000013, angledelta 122.7 deg
+step 69 - lrate 0.000003, wchange 0.000010, angledelta 57.8 deg
+step 70 - lrate 0.000003, wchange 0.000011, angledelta 99.3 deg
+step 71 - lrate 0.000003, wchange 0.000005, angledelta 129.2 deg
+step 72 - lrate 0.000003, wchange 0.000003, angledelta 54.8 deg
+step 73 - lrate 0.000003, wchange 0.000002, angledelta 119.4 deg
+step 74 - lrate 0.000003, wchange 0.000003, angledelta 116.9 deg
+step 75 - lrate 0.000002, wchange 0.000001, angledelta 87.6 deg
+step 76 - lrate 0.000002, wchange 0.000001, angledelta 110.3 deg
+Sorting components in descending order of mean projected variance ...
+Components not ordered by variance.
+
+Using skewness of the distribution to determine the sign of the components ...
+Changing sign of component 2
+Changing sign of component 3
+Changing sign of component 4
+---------------------------------------------------------------------
+DONE CALCULATING GROUP ICA
+---------------------------------------------------------------------
+ 
+---------------------------------------------------------------------
+STARTING BACK RECONSTRUCTION STEP
+---------------------------------------------------------------------
+
+Using GICA3 Back Reconstruction Approach ...
+
+Back reconstructing  set 1
+-done back reconstructing  set 1
+-saving back reconstructed ica data for set 1 -> tot_ica_br1.mat
+Back reconstructing  set 2
+-done back reconstructing  set 2
+-saving back reconstructed ica data for set 2 -> tot_ica_br2.mat
+Back reconstructing  set 3
+-done back reconstructing  set 3
+-saving back reconstructed ica data for set 3 -> tot_ica_br3.mat
+Back reconstructing  set 4
+-done back reconstructing  set 4
+-saving back reconstructed ica data for set 4 -> tot_ica_br4.mat
+Back reconstructing  set 5
+-done back reconstructing  set 5
+-saving back reconstructed ica data for set 5 -> tot_ica_br5.mat
+Back reconstructing  set 6
+-done back reconstructing  set 6
+-saving back reconstructed ica data for set 6 -> tot_ica_br6.mat
+Back reconstructing  set 7
+-done back reconstructing  set 7
+-saving back reconstructed ica data for set 7 -> tot_ica_br7.mat
+Back reconstructing  set 8
+-done back reconstructing  set 8
+-saving back reconstructed ica data for set 8 -> tot_ica_br8.mat
+---------------------------------------------------------------------
+DONE WITH BACK RECONSTRUCTION STEP
+---------------------------------------------------------------------
+ 
+ 
+---------------------------------------------------------------------
+STARTING TO SCALE COMPONENT SETS
+---------------------------------------------------------------------
+Computing offset using the mean component maps which will be subtracted to the subject component maps ...
+Done
+Starting parallel pool (parpool) using the 'local' profile ...
+
+--Subject 1 Session 8's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 8 in nifti format and as matlab file
+--Subject 1 Session 7's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 7 in nifti format and as matlab file
+--Subject 1 Session 6's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 6 in nifti format and as matlab file
+--Subject 1 Session 5's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 5 in nifti format and as matlab file
+--Subject 1 Session 4's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 4 in nifti format and as matlab file
+--Subject 1 Session 3's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 3 in nifti format and as matlab file
+--Subject 1 Session 2's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 2 in nifti format and as matlab file
+--Subject 1 Session 1's Component Set
+Not scaling components
+...saving scaled ica data for subject 1 session 1 in nifti format and as matlab file
+---------------------------------------------------------------------
+DONE SCALING COMPONENTS
+---------------------------------------------------------------------
+ 
+ 
+---------------------------------------------------------------------
+STARTING GROUP STATS STEP
+---------------------------------------------------------------------
+--calculating mean ica component and timecourse for all subjects and sessions
+done calculating mean for different sessions
+Comparing mean image with the aggregate ...
+Value shows how much the mean component is close w.r.t aggregate component
+The comparison value is found to be 1
+
+Computing spectra and FNC correlations of all subjects and sessions components ...
+Timecourses will be despiked when computing FNC correlations...
+Timecourses will be filtered when computing FNC correlations using HF cutoff of 0.15 Hz ...
+Starting parallel pool (parpool) using the 'local' profile ...
+
+
+Starting parallel pool (parpool) using the 'local' profile ...
+
+Done
+
+File /projects/chbh00077/Functional/FAB-main/output/gica_tot_IC005_n001_20240109/tot_postprocess_results.mat contains spectra and FNC correlations
+1. spectra_tc_all - Timecourses spectra. spectra_tc_all variable is of dimensions subjects x sessions x spectral length x components
+2. fnc_corrs_all - FNC correlations transformed to fisher z-scores. fnc_corrs_all variable is of dimensions subjects x sessions x components x components
+3. spatial_maps_MI - Mutual information is computed between components spatially. spatial_maps_MI variable is of dimensions subjects x sessions x components x components
+4. kurt_comp - Kurtosis is computed on the spatial maps and timecourses. kurt_comp variable is of dimensions subjects x sessions x components
+---------------------------------------------------------------------
+ENDING GROUP STATS STEP
+---------------------------------------------------------------------
+ 
+Time taken to run the analysis is 609.6599 seconds
+
+All the analysis information is stored in the file /projects/chbh00077/Functional/FAB-main/output/gica_tot_IC005_n001_20240109/tot_results.log
+Finished with Analysis
+
